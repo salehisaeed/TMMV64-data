@@ -17,7 +17,7 @@ diameters. The velocity components u, v are in one file, the vorticity in the ot
 of the simulation, with the cell centers, areas and a triangulation for plotting. Being two-dimensional, this is a
 periodic laminar wake.
 
-Source: Saeed Salehi, Linköping University (simulation made for this course).
+Source: Saeed Salehi, Linköping University (simulation made for this course). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## hw2: wind turbine and bearing vibration
 
