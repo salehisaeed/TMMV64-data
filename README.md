@@ -23,8 +23,14 @@ Source: Saeed Salehi, Linköping University (simulation made for this course). L
 
 | File | Size |
 |:--|--:|
+| `hw2/kelmarsh_t1_2016-2017.npz` | 1.3 MB |
 | `hw2/kelmarsh_t1_2016-2017.csv` | 5.7 MB |
 | `hw2/bearing_cwru_12k.npz` | 6.0 MB |
+
+**`kelmarsh_t1_2016-2017.npz`** (used by the notebook): the records of the CSV file below that have a wind speed and a
+power, as NumPy arrays (year, month, wind, power, pitch, rotor_speed, t_ambient, wind_direction), with a status for
+each record: `clean` (running normally), `curtailed` (running, but the power limited by the grid operator), `warning`,
+`stop` or `low wind`. Same source and license as the CSV file.
 
 **`kelmarsh_t1_2016-2017.csv`**: ten-minute records of turbine 1 of the Kelmarsh wind farm (England) for 2016 and
 2017: wind speed, power, pitch angle, rotor speed, ambient temperature, wind direction and the logged state of the
