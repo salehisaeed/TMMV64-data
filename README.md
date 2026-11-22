@@ -49,3 +49,29 @@ Source: Case Western Reserve University Bearing Data Center,
 [engineering.case.edu/bearingdatacenter](https://engineering.case.edu/bearingdatacenter). A reduced copy of their
 data, shared here for teaching with credit to the Bearing Data Center. For the original data and more information,
 see their website. It will be removed on request.
+
+## hw3: airfoil self-noise and steel plate faults
+
+| File | Size |
+|:--|--:|
+| `hw3/airfoil_self_noise.npz` | 9 kB |
+| `hw3/steel_plates_faults.npz` | 131 kB |
+
+**`airfoil_self_noise.npz`**: the noise of NACA 0012 blade sections in the anechoic wind tunnel of NASA Langley,
+1503 one-third-octave bands of 106 measured spectra. Arrays: frequency (Hz), angle (angle of attack, degrees), chord
+(m), speed (flow speed, m/s), thickness (suction-side displacement thickness at the trailing edge, m), noise (scaled
+sound pressure level, dB), and spectrum (the number of the measured spectrum, 0 to 105, one per chord, speed and
+angle, added here).
+
+Source: T. F. Brooks, D. S. Pope and M. A. Marcolini, *Airfoil self-noise and prediction*, NASA Reference
+Publication 1218 (1989). Data: Brooks, T., Pope, D. and Marcolini, M., *Airfoil Self-Noise*, UCI Machine Learning
+Repository (1989), [doi:10.24432/C5VW2C](https://doi.org/10.24432/C5VW2C). License: CC BY 4.0. Changes: the columns
+stored as named arrays; the spectrum number added.
+
+**`steel_plates_faults.npz`**: 1941 surface faults of steel plates, each described by 27 measured numbers (features,
+with their names in names) and its kind (kind, one of the seven in kinds: pastry, Z scratch, K scratch, stains,
+dirtiness, bumps, other).
+
+Source: Buscema, M., Terzi, S. and Tastle, W., *Steel Plates Faults*, UCI Machine Learning Repository (2010),
+[doi:10.24432/C5J88N](https://doi.org/10.24432/C5J88N); Semeion Research Center of Sciences of Communication, Rome.
+License: CC BY 4.0. Changes: the seven indicator columns of the kind stored as one array of names.
