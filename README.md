@@ -75,3 +75,23 @@ dirtiness, bumps, other).
 Source: Buscema, M., Terzi, S. and Tastle, W., *Steel Plates Faults*, UCI Machine Learning Repository (2010),
 [doi:10.24432/C5J88N](https://doi.org/10.24432/C5J88N); Semeion Research Center of Sciences of Communication, Rome.
 License: CC BY 4.0. Changes: the seven indicator columns of the kind stored as one array of names.
+
+## projects/turbofan: turbofan engine degradation (NASA C-MAPSS)
+
+| File | Size |
+|:--|--:|
+| `projects/turbofan/CMAPSSData.zip` | 12 MB |
+
+**`CMAPSSData.zip`**: simulated run-to-failure data of a fleet of turbofan engines, four subsets (FD001 to FD004: one
+or six operating conditions, one or two fault modes). For each subset, `train_FD00k.txt` (engines run until failure),
+`test_FD00k.txt` (engines stopped some time before failure) and `RUL_FD00k.txt` (the true remaining life of each test
+engine); text files with 26 columns (engine, cycle, three operational settings, 21 sensors). NASA's `readme.txt` is
+included.
+
+Source: A. Saxena and K. Goebel, *Turbofan Engine Degradation Simulation Data Set*, NASA Prognostics Data Repository,
+NASA Ames Research Center (2008),
+[nasa.gov/.../pcoe-data-set-repository](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/).
+The data are described in A. Saxena, K. Goebel, D. Simon and N. Eklund, *Damage propagation modeling for aircraft
+engine run-to-failure simulation*, PHM08, Denver (2008). NASA states no license; it asks users to acknowledge the
+repository and the donors of the data. A copy of NASA's data files (without the paper that NASA's zip file also
+holds), kept here so that the course does not depend on the original address. It will be removed on request.
