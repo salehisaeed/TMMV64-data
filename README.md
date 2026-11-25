@@ -113,3 +113,14 @@ woven composites*, International Journal of Solids and Structures 282 (2023) 112
 [doi:10.1016/j.ijsolstr.2023.112452](https://doi.org/10.1016/j.ijsolstr.2023.112452). The authors' file, unchanged,
 from their repository [github.com/EsanGhaneh/MultiscaleElasticWovenNeuralNet](https://github.com/EsanGhaneh/MultiscaleElasticWovenNeuralNet).
 License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); please cite the paper.
+
+## projects/laminate: classical laminate theory
+
+| File | Size |
+|:--|--:|
+| `projects/laminate/clt.py` | 2 kB |
+
+**`clt.py`**: classical laminate theory in Python (NumPy): the reduced stiffness of a ply, its rotation, and the ABD
+matrix of a laminate with its inverse. Code, not data: download it next to your notebook and `import clt`.
+
+Source: Ehsan Ghane, written for this course (TMMV64, Linköping University).
