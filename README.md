@@ -95,3 +95,21 @@ The data are described in A. Saxena, K. Goebel, D. Simon and N. Eklund, *Damage 
 engine run-to-failure simulation*, PHM08, Denver (2008). NASA states no license; it asks users to acknowledge the
 repository and the donors of the data. A copy of NASA's data files (without the paper that NASA's zip file also
 holds), kept here so that the course does not depend on the original address. It will be removed on request.
+
+## projects/woven: elastic properties of unidirectional and woven composites
+
+| File | Size |
+|:--|--:|
+| `projects/woven/ElasEngCoefDataSet.xlsx` | 0.3 MB |
+
+**`ElasEngCoefDataSet.xlsx`**: finite element results of representative volume elements of composites. The sheet
+`400DataPoints` holds 400 Sobol samples of five inputs (matrix modulus and Poisson's ratio, fiber modulus and
+Poisson's ratio, fiber volume fraction `phiF`; moduli in MPa) and, for each, the engineering constants of a 3D
+unidirectional RVE with random fibers (1 = fiber direction) and four properties of a plain-weave ply (Ex, Ey, Gxy in
+GPa, and νxy). Reading it with pandas needs `openpyxl`.
+
+Source: E. Ghane, M. Fagerström and S. M. Mirkhalaf, *A multiscale deep learning model for elastic properties of
+woven composites*, International Journal of Solids and Structures 282 (2023) 112452,
+[doi:10.1016/j.ijsolstr.2023.112452](https://doi.org/10.1016/j.ijsolstr.2023.112452). The authors' file, unchanged,
+from their repository [github.com/EsanGhaneh/MultiscaleElasticWovenNeuralNet](https://github.com/EsanGhaneh/MultiscaleElasticWovenNeuralNet).
+License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); please cite the paper.
