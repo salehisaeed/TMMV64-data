@@ -124,3 +124,20 @@ License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); please cite 
 matrix of a laminate with its inverse. Code, not data: download it next to your notebook and `import clt`.
 
 Source: Ehsan Ghane, written for this course (TMMV64, Linköping University).
+
+## lecture08: convolutional neural networks (the code behind the slides)
+
+| File | Size |
+|:--|--:|
+| `lecture08/temperature_linkoping_2022-03.csv` | 9 kB |
+| `lecture08/concrete_cracks_64.npz` | 9 MB |
+
+**`temperature_linkoping_2022-03.csv`**: the hourly air temperature at Linköping-Malmslätt (station 85240) for 400 hours
+from 1 March 2022, in °C; eight missing hours filled by linear interpolation.
+Source: SMHI, open data. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+**`concrete_cracks_64.npz`**: 3000 squares of concrete photos, half with a crack, half without, as 64 × 64 gray images
+(`images`, uint8) with the label `crack` (1 or 0). Drawn at random from the 40 000 squares of the original data set,
+shrunk from 227 × 227 color.
+Source: Ç. F. Özgenel, Concrete Crack Images for Classification, Mendeley Data (2019),
+[doi:10.17632/5y9wdsg2zt.2](https://doi.org/10.17632/5y9wdsg2zt.2). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
