@@ -131,6 +131,10 @@ Source: Ehsan Ghane, written for this course (TMMV64, Linköping University).
 |:--|--:|
 | `lecture08/temperature_linkoping_2022-03.csv` | 9 kB |
 | `lecture08/concrete_cracks_64.npz` | 9 MB |
+| `lecture08/mnist.npz` | 11 MB |
+| `lecture08/liu_logo_38x22.png` | 1 kB |
+| `lecture08/concrete_wall.jpg` | 0.3 MB |
+| `lecture08/cylinder_wake_Re100_500_1000.npz` | 22 MB |
 
 **`temperature_linkoping_2022-03.csv`**: the hourly air temperature at Linköping-Malmslätt (station 85240) for 400 hours
 from 1 March 2022, in °C; eight missing hours filled by linear interpolation.
@@ -141,3 +145,18 @@ Source: SMHI, open data. License: [CC BY 4.0](https://creativecommons.org/licens
 shrunk from 227 × 227 color.
 Source: Ç. F. Özgenel, Concrete Crack Images for Classification, Mendeley Data (2019),
 [doi:10.17632/5y9wdsg2zt.2](https://doi.org/10.17632/5y9wdsg2zt.2). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+**`mnist.npz`**: the MNIST handwritten digits, 60 000 to train on and 10 000 to test on, 28 × 28 gray pixels (`x_train`,
+`y_train`, `x_test`, `y_test`, uint8). Source: Y. LeCun, C. Cortes, C. J. C. Burges, The MNIST database of handwritten
+digits. License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+
+**`liu_logo_38x22.png`**: the logo of Linköping University drawn in 38 × 22 black or white pixels, for the pixel examples
+of the lecture. © Linköping University; for teaching in this course.
+
+**`concrete_wall.jpg`**: one photo of a cracked concrete wall (1137 × 853). Source: Ç. F. Özgenel, Mendeley Data,
+[doi:10.17632/jwsn7tfbrp.1](https://doi.org/10.17632/jwsn7tfbrp.1). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+**`cylinder_wake_Re100_500_1000.npz`**: the velocity u, v of the two-dimensional cylinder wake at Re = 100, 500 and 1000
+(`U100`, `U500`, `U1000`: 125 moments × 2 × 97 × 193, float16) on a uniform grid of spacing D/16 (`x` from −1 to 11 D,
+`y` from −3 to 3 D), t = 300.2 to 325 (`t`). Source: Saeed Salehi, Linköping University (simulations made for this
+course, OpenFOAM). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
